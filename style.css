@@ -7,14 +7,29 @@
 }
 h2{
     color: rgb(121, 25, 65);
-    margin:30px;
-    padding:30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     font-size:xx-large;
     font-weight: bolder;
 }
 #msg{
-    margin-bottom: 10em;
+    margin-bottom: 10m;
     color: rgb(3, 107, 62);
     font-weight: bold;
     font-size:larger;
+}
+footer {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:20px;
+}
+#score{
+    margin-top: 10px;
+    font-size: 2em;
+}
+#gameboard{
+    border:3px solid;
+
 }
