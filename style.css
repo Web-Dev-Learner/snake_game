@@ -2,29 +2,29 @@
     margin:0;
     padding:0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(44, 136, 68);
+    background-color: rgb(93, 232, 119);
     text-align: center;
     box-sizing: border-box;
     
 }
 h2{
-    color: rgb(96, 7, 2);
+    color: rgb(5, 68, 0);
     margin: 30px 0 10px 0;
     /*margin-top: 30px;
     margin-bottom: 50px;*/
-    font-size:xx-large;
+    font-size:xx-large; 
     font-weight: bolder;
 }
 #msg{
     margin-bottom: 10m;
-    color: rgb(194, 201, 62);
+    color: rgb(110, 53, 3);
     font-weight: bold;
     font-size:larger;
 }
 footer {
     letter-spacing: 2px;
     font-weight: bolder;
-    color:rgb(77, 4, 77);
+    color:rgb(56, 13, 66);
     
     margin-bottom: 50px;
     padding:20px;
@@ -32,7 +32,7 @@ footer {
 #score{
     margin-top: 10px;
     font-size: 2em;
-    color:rgb(2, 2, 95);
+    color:rgb(9, 37, 223);
     
 }
 #gameboard{
