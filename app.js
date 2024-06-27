@@ -4,6 +4,10 @@ const context = gameboard.getContext('2d');
 const scoreText = document.getElementById('scoreval');
 
 
+
+
+
+
 const WIDTH = gameboard.width;
 const HEIGHT = gameboard.height; 
 const UNIT = 25;
@@ -26,6 +30,8 @@ let snake = [
 ];
 
 window.addEventListener('keydown',keyPress);
+
+
 startGame();
 
 function startGame(){
@@ -56,7 +62,7 @@ function displayFood(){
 }
 
 function drawSnake(){
-    context.fillStyle = 'aqua';
+    context.fillStyle = '#00ffff';
     context.strokeStyle = '#212121';
     snake.forEach((snakePart) => {
         context.fillRect(snakePart.x,snakePart.y,UNIT,UNIT)
@@ -86,7 +92,7 @@ function nextTick(){
             drawSnake();
             checkGameOver();
             nextTick();
-        }, 100);
+        }, 300);
     }
     else if(!active){
         clearBoard();
@@ -153,3 +159,5 @@ function checkGameOver(){
             break;
     }
 }
+
+
