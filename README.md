@@ -1,6 +1,4 @@
 
-Here is the description with bullet points for your Snake Game project:
-
 ### Snake Game
 #### Skills
 HTML5, CSS3, JavaScript (ES6)
